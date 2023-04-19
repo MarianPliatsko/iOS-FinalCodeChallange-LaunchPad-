@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		046AF50A29EF3FBA003DB244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF50929EF3FBA003DB244 /* AppDelegate.swift */; };
 		046AF50C29EF3FBA003DB244 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF50B29EF3FBA003DB244 /* SceneDelegate.swift */; };
-		046AF50E29EF3FBA003DB244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF50D29EF3FBA003DB244 /* ViewController.swift */; };
+		046AF50E29EF3FBA003DB244 /* UserProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF50D29EF3FBA003DB244 /* UserProfileTableViewController.swift */; };
 		046AF51129EF3FBA003DB244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046AF50F29EF3FBA003DB244 /* Main.storyboard */; };
 		046AF51329EF3FBE003DB244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046AF51229EF3FBE003DB244 /* Assets.xcassets */; };
 		046AF51629EF3FBE003DB244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046AF51429EF3FBE003DB244 /* LaunchScreen.storyboard */; };
+		046AF52329EF45AB003DB244 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF52229EF45AB003DB244 /* UIButton.swift */; };
+		046AF52C29EF4A40003DB244 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF52B29EF4A40003DB244 /* NetworkService.swift */; };
+		046AF52F29EF4BC1003DB244 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF52E29EF4BC1003DB244 /* ProfileService.swift */; };
+		046AF53229EF4C60003DB244 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF53129EF4C60003DB244 /* User.swift */; };
+		046AF53429EF4C6D003DB244 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF53329EF4C6D003DB244 /* Profile.swift */; };
+		046AF53629EF4C79003DB244 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF53529EF4C79003DB244 /* Password.swift */; };
+		046AF53929EF7912003DB244 /* ChangePasswordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF53829EF7912003DB244 /* ChangePasswordTableViewController.swift */; };
+		046AF53E29EF8104003DB244 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF53D29EF8104003DB244 /* Coordinator.swift */; };
+		046AF54029EF8119003DB244 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF53F29EF8119003DB244 /* Storyboarded.swift */; };
+		046AF54229EF8140003DB244 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046AF54129EF8140003DB244 /* MainCoordinator.swift */; };
+		04B52B5729EF94FA007F1331 /* ChangePasswordTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B52B5629EF94FA007F1331 /* ChangePasswordTableViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		046AF50629EF3FBA003DB244 /* iOS FinalCodeChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS FinalCodeChallange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		046AF50929EF3FBA003DB244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		046AF50B29EF3FBA003DB244 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		046AF50D29EF3FBA003DB244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046AF50D29EF3FBA003DB244 /* UserProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewController.swift; sourceTree = "<group>"; };
 		046AF51029EF3FBA003DB244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		046AF51229EF3FBE003DB244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046AF51529EF3FBE003DB244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046AF51729EF3FBE003DB244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046AF52229EF45AB003DB244 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		046AF52B29EF4A40003DB244 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		046AF52E29EF4BC1003DB244 /* ProfileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		046AF53129EF4C60003DB244 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		046AF53329EF4C6D003DB244 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		046AF53529EF4C79003DB244 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		046AF53829EF7912003DB244 /* ChangePasswordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordTableViewController.swift; sourceTree = "<group>"; };
+		046AF53D29EF8104003DB244 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		046AF53F29EF8119003DB244 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		046AF54129EF8140003DB244 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		04B52B5629EF94FA007F1331 /* ChangePasswordTableViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChangePasswordTableViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +80,96 @@
 			children = (
 				046AF50929EF3FBA003DB244 /* AppDelegate.swift */,
 				046AF50B29EF3FBA003DB244 /* SceneDelegate.swift */,
-				046AF50D29EF3FBA003DB244 /* ViewController.swift */,
-				046AF50F29EF3FBA003DB244 /* Main.storyboard */,
+				046AF53C29EF80EC003DB244 /* Coordinator */,
+				046AF52129EF459A003DB244 /* Helpers */,
+				046AF52A29EF4A29003DB244 /* Newtworking */,
+				046AF52D29EF4BA5003DB244 /* Services */,
+				046AF53029EF4C4A003DB244 /* Models */,
+				046AF52029EF42E0003DB244 /* Controllers */,
+				046AF51D29EF4275003DB244 /* Views */,
 				046AF51229EF3FBE003DB244 /* Assets.xcassets */,
 				046AF51429EF3FBE003DB244 /* LaunchScreen.storyboard */,
 				046AF51729EF3FBE003DB244 /* Info.plist */,
 			);
 			path = "iOS FinalCodeChallange";
+			sourceTree = "<group>";
+		};
+		046AF51D29EF4275003DB244 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04B52B5629EF94FA007F1331 /* ChangePasswordTableViewController.storyboard */,
+				046AF50F29EF3FBA003DB244 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		046AF52029EF42E0003DB244 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				046AF53729EF78BB003DB244 /* ChangePassword */,
+				046AF52429EF47F3003DB244 /* UserProfile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		046AF52129EF459A003DB244 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				046AF52229EF45AB003DB244 /* UIButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		046AF52429EF47F3003DB244 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				046AF50D29EF3FBA003DB244 /* UserProfileTableViewController.swift */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		046AF52A29EF4A29003DB244 /* Newtworking */ = {
+			isa = PBXGroup;
+			children = (
+				046AF52B29EF4A40003DB244 /* NetworkService.swift */,
+			);
+			path = Newtworking;
+			sourceTree = "<group>";
+		};
+		046AF52D29EF4BA5003DB244 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				046AF52E29EF4BC1003DB244 /* ProfileService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		046AF53029EF4C4A003DB244 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				046AF53329EF4C6D003DB244 /* Profile.swift */,
+				046AF53129EF4C60003DB244 /* User.swift */,
+				046AF53529EF4C79003DB244 /* Password.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		046AF53729EF78BB003DB244 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				046AF53829EF7912003DB244 /* ChangePasswordTableViewController.swift */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		046AF53C29EF80EC003DB244 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				046AF53D29EF8104003DB244 /* Coordinator.swift */,
+				046AF53F29EF8119003DB244 /* Storyboarded.swift */,
+				046AF54129EF8140003DB244 /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +233,7 @@
 				046AF51629EF3FBE003DB244 /* LaunchScreen.storyboard in Resources */,
 				046AF51329EF3FBE003DB244 /* Assets.xcassets in Resources */,
 				046AF51129EF3FBA003DB244 /* Main.storyboard in Resources */,
+				04B52B5729EF94FA007F1331 /* ChangePasswordTableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +244,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046AF50E29EF3FBA003DB244 /* ViewController.swift in Sources */,
+				046AF50E29EF3FBA003DB244 /* UserProfileTableViewController.swift in Sources */,
+				046AF53929EF7912003DB244 /* ChangePasswordTableViewController.swift in Sources */,
 				046AF50A29EF3FBA003DB244 /* AppDelegate.swift in Sources */,
 				046AF50C29EF3FBA003DB244 /* SceneDelegate.swift in Sources */,
+				046AF53229EF4C60003DB244 /* User.swift in Sources */,
+				046AF52C29EF4A40003DB244 /* NetworkService.swift in Sources */,
+				046AF53E29EF8104003DB244 /* Coordinator.swift in Sources */,
+				046AF52329EF45AB003DB244 /* UIButton.swift in Sources */,
+				046AF53429EF4C6D003DB244 /* Profile.swift in Sources */,
+				046AF53629EF4C79003DB244 /* Password.swift in Sources */,
+				046AF54229EF8140003DB244 /* MainCoordinator.swift in Sources */,
+				046AF52F29EF4BC1003DB244 /* ProfileService.swift in Sources */,
+				046AF54029EF8119003DB244 /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
